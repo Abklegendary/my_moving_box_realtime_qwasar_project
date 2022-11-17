@@ -2,19 +2,20 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+Complete an index.html file with the missing javascript code in order to move the "div" with the id my_box_realtime 
 
 ## Description
-TODO - How have you solved the problem?
+When we load you html page you should see the box moving diagonally through the screen and it should take 35 seconds to reach its destination.
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+Install Node.js and NPM. After choosing the path, double-click to install .msi binary files to initiate the installation process.Check Node.js and NPM Version.
+
 
 ## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
+The code is a JavaScript function that is called every 1500 milliseconds.The code sets the bottom of the box to be equal to x + "px" and then moves it right by x + "px".
+The code sets up a timer to check every 1500 milliseconds.
+The code first gets the element with an ID of "my_box_realtime" and then changes the bottom, right, and position properties.
+
 
 ### The Core Team
 
