@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
     <div id="my_box_realtime" style= "background-color: red; position: absolute; right: 70; bottom: 70; min-width: 100px; min-height: 100px"></div>
 
@@ -18,3 +19,17 @@
   
 </script>
 </html>
+=======
+$>cat index.html
+<html>
+    <div id="my_box_realtime" style= "background-color: red; position: absolute; right: 70; bottom: 70; min-width: 100px; min-height: 100px"></div>
+    <script type="text/javascript">
+       var interval = setInterval(function() {
+      var div = document.getElementById("my_box_realtime");
+      div.style.bottom = div.offsetLeft + 0 + "px"; 
+      div.style.right = div.offsetTop + 0 + "px";},
+      500);
+    </script>
+</html>
+$>
+>>>>>>> bc6023c2d3c8f422a4ea9ebbf47bc9761a45edc6
